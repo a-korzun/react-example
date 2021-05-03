@@ -1,0 +1,22 @@
+.table {
+  table-layout: fixed;
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.table td {
+  padding: 4px 8px;
+  word-break: break-word;
+}
+
+.table__header {
+  position: sticky;
+  top: 0;
+}
+
+.table__header th {
+  cursor: pointer;
+  padding: 4px 8px;
+  text-align: left;
+}
